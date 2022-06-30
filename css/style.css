@@ -457,7 +457,21 @@ p{
     align-items: flex-end;
   }
 
+/*=========ANIMACIONES========*/
+@keyframes headerAnimation {
+	0% {background-image: url(../img/head.png)}
+	25%{background-image: url(../img/head1.jpg)}
+	50%{background-image: url(../img/head2.jpg)}
+	75% {background-image: url(../img/head3.jpg)}
+	100%{background-image: url(../img/head4.jpg)}
+}
+header{
+	height: 60vh;
+	animation-name: headerAnimation;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	background-size: cover;
+	animation-timing-function: all;
 
-
-
+}
 
