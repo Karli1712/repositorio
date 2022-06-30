@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sugar Rush Store - Snacks Americanos en México</title>
+	<link rel="shortcut icon" href="img/favicon.png">
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class ="encabezado__box--white"><p>Envío Gratis en compras desde $500</p>
+    </div>	
+
+<nav class="botonera" id="mainNav">
+		<a href="index.html">
+			<img src="img/logo_sugar.png" alt="logo de Sugar Rush Store">
+	    </a>	
+	    <ul>
+	    	<li>
+	    		<a href="views/nosotros.html">Nosotros</a>
+	    	</li>
+	    	<li>
+	    		<a href="views/snacks.html">Snacks</a>
+	    	</li>
+	    	<li>
+	    		<a href="views/bebidas.html">Bebidas</a>
+	    	</li>
+	    	<li>
+	    		<a href="views/promociones.html">Promociones</a>
+	    	</li>		
+	    	<li>
+	    		<a href="views/contacto.html">Contacto</a>
+	    	</li>	
+
+	    </ul>
+</nav>
+
+	<!-- ends nav -->
+<header class="encabezado" id="header">
+	 <img src="img/Head.png" alt="Foto de Logo de Sugar Rush Store" class="encabezado__img--fluid">
+ </header>
+	 	<!-- ends header -->
+	 		<div class="contenedorNosotros">
+	 		<section class="biografia">
+	 			<article class="bgLight nosotros__articulo">
+	 				<h2 class="textCenter nosotros__titulo--xl">Nosotros</h2>
+	 				<p class= "textCenter">Somos un grupo de <span class= textAlert>curiosos </span>que ha viajado por el mundo con el propósito de  darle color y <span class= textAlert> sabor </span> a nuestras vidas.</p>
+	 				<p class= "textCenter">
+	 					En esa búsqueda exploramos entre dulces y salados, encontrándonos con una experiencia deliciosa al paladar, decidimos compartir esas experiencias contigo, trayendo una probadita del mundo en cada snack que seleccionamos para traerte a nuestra tienda.</p>
+	 				<h2 class="textCenter nosotros__titulo--xl">Nuestra historia</h2>
+	 				<p class="textCenter">En el año 2018 emprendimos un viaje en el que nos dispusimos a probar los mejores snacks de cada país, probamos cosas maravillosas y alguna que otra aventura exótica para el paladar, al compartir nuestra mejor selección con nuestros amigos, nos dimos cuenta de que podemos llevar estas experiencias a más personas, así nace nuestro sueño, que hoy disfrutamos contigo.
+	 				</p>
+	 				</article>	
+	 			</section>
+	 	</div>
+	 	<section>
+	 		<form action="envio.php" id="Contacto">
+<!-- 	 				<legend>Contáctanos</legend>
+	 			    <label for= "nombre"> Nombre </label>
+	 			    <input type="text" id="nombre" placeholder="Juan Pérez">
+	 			    <br>
+	 			    <label for="email">Email:</label>
+	 			    <input type="email"id=email placeholder="email@email.com" >
+	 			</fieldset>
+	 			    <br>	
+	 			/<fieldset>
+	 			 	<legend>Producto</legend>
+	 			    <label for="Snacks">Snacks</label>
+	 			    <input type="checkbox" name=" Snacks" value="Snacks">   
+	 			    <label for="Dulces">Dulces</label>
+	 			    <input type="checkbox" name="Dulces" value="Dulces" > 
+	 			    <label for="Salados">Salados</label>
+	 			    <input type="checkbox" name="Salados" value="Salados" >
+	 			    <label for="Bebidas">Bebidas</label>
+	 			    <input type="checkbox" name="Bebidas" value="Bebidas" >
+	 			</fieldset>
+	 			<fieldset>
+	 				<legend>Información de envío</legend>
+	 				<label for="Tienda">Recoger en tienda</label>
+	 				<input type="radio" id="Tienda" value="tienda" name="envio">
+                    <label for="Domicilio">Envío a domicilio</label>
+                    <input type="radio" id="domicilio" value="domicilio" name="envio">
+                    <br>
+                    <label for="Localidad">Ciudad</label>
+                    	<select name="" id="Ciudad">
+                    	<option value="CDMX"> CDMX</option>
+                    	<option value="Jalisco"> Jalisco</option>
+                   	<option value="Monterrey">Monterrey</option>
+ 					</select>-->
+  <div class="contactForm">    
+        <h3>Contáctanos</h3>
+        <div class="contacto"></div>
+
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                 <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+
+  </div>
+
+</body>
+
+	 			<input type="submit" value="Enviar" >
+	 			</form>
+	 			<!-- ends form -->
+	 		</section>
+<div class="mapa">
+	 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9545675392465!2d-103.37066858506644!3d20.671427286193097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae067205bd1d%3A0x5fc3a42af84955b!2sAv.%20Chapultepec%20Sur%2C%20Americana%2C%20Guadalajara%2C%20Jal.!5e0!3m2!1ses!2smx!4v1653942254301!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+	 			<!-- ends map -->
+	 	</main>
+	 	  </div>
+<div>
+	 	<footer>	
+	 		<a href="https://www.facebook.com" target="self">
+	 			<img src="img/logo_facebook.png" alt="">
+	 		</a>	
+	 		<a href="https://instagram.com" target="self">
+	 			<img src="img/logo_insta.png" alt="">
+	 		</a>
+	 	</footer>
+	 		<!-- ends footer -->
+</div>
+</body>
+</html>
