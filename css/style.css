@@ -39,7 +39,6 @@ body{
 }
 
 
-.body
 
 section article p{
 	color:  rgb(4, 17, 53);
@@ -69,7 +68,7 @@ nav {
 			color: whitesmoke;
 			text-decoration: none;
 			font-family: 'Poppins', sans-serif;
-			font-size: 2.2 rem ;
+			font-size: 1.5rem;
 			font-weight: 500;}
 /*Contenedor contacto*/ APLICACION DE GRID
 
@@ -251,10 +250,7 @@ p{
 	list-style: none;
 	margin-right: 20px ;
 }
-.botonera ul li a: hover{
-	color: black;
-	font-weight: 600px ;
-}
+
 
 .botonera img{
 	margin-bottom: 0;
@@ -474,4 +470,25 @@ header{
 	animation-timing-function: all;
 
 }
+ a{
 
+ 	transition font-size: 2s;
+ 	transition color: 2s;
+ }
+
+ a:hover{
+ 	color: floralwhite;
+ 	font-size: 1.7rem;
+
+
+ }
+
+ input{
+ 	transition background-color: 2s; 
+    
+ }
+input:hover{
+	background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,44,87,1) 100%);
+
+}
