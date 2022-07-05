@@ -483,12 +483,4 @@ header{
 
  }
 
- input{
- 	transition background-color: 2s; 
-    
- }
-input:hover{
-	background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,44,87,1) 100%);
-
-}
+ 
